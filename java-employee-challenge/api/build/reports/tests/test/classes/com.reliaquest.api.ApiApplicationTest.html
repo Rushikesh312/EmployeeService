@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ApiApplicationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ApiApplicationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.reliaquest.api.html">com.reliaquest.api</a> &gt; ApiApplicationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.098s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">CreateEmployee</td>
+<td class="success">CreateEmployee()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">DeleteEmployee</td>
+<td class="success">DeleteEmployee()</td>
+<td class="success">0.066s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">GetEmployees</td>
+<td class="success">getEmployees()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">HighestSalaryEmployee</td>
+<td class="success">getHighestSalary()</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getTopTenEarningEmployeeNames</td>
+<td class="success">getTopTenEarningEmployeeNames()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SearchEmployees</td>
+<td class="success">searchEmployees()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-01-11 02:13:12 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-11 02:13:12 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.10)
+
+2025-01-11 02:13:12 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/org.json/json/20241224/6524a412223e4b355cb2a5787fec0b15dd9cf6f1/json-20241224.jar!/org/json/JSONObject.class
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-01-11 02:13:12 INFO  c.reliaquest.api.ApiApplicationTest - Starting ApiApplicationTest using Java 17.0.13 with PID 30932 (started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-11 02:13:12 INFO  c.reliaquest.api.ApiApplicationTest - No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-01-11 02:13:13 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-11 02:13:13 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-11 02:13:13 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-11 02:13:13 INFO  c.reliaquest.api.ApiApplicationTest - Started ApiApplicationTest in 1.06 seconds (process running for 2.113)
+2025-01-11 02:13:14 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getting highest salary of Employee 
+2025-01-11 02:13:14 INFO  c.r.a.s.impl.EmployeeServiceImpl - Getting list of Employees :[EmployeeObj(id=5667574f-7b63-4db6-9a05-7e011e9a6f7e, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=03e80a0a-c402-4cb8-9d9a-f1e1becfcebc, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=60d6b1b2-f846-46bb-a0b4-29c984237b80, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=006eac3a-652e-42f4-945e-aedd0bd273b5, employeeName=S Deshmukh, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)] 
+2025-01-11 02:13:14 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getTopTenEarningEmployeeNames 
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.12</a> at 11-Jan-2025, 2:13:15 am</p>
+</div>
+</div>
+</body>
+</html>

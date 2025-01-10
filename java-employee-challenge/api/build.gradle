@@ -1,0 +1,19 @@
+plugins {
+    id 'project-conventions'
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.13.3'
+// https://mvnrepository.com/artifact/org.json/json
+    implementation group: 'org.json', name: 'json', version: '20241224'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.mockito:mockito-core'
+    testImplementation 'org.mockito:mockito-junit-jupiter'
+
+}
+
+springBoot {
+    mainClass = 'com.reliaquest.api.ApiApplication'
+}

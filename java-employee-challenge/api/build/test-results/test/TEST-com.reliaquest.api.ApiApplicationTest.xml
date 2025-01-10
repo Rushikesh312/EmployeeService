@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.reliaquest.api.ApiApplicationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-01-10T20:43:14" hostname="Rushikeshs-MacBook-Pro.local" time="0.118">
+  <properties/>
+  <testcase name="DeleteEmployee" classname="com.reliaquest.api.ApiApplicationTest" time="0.066"/>
+  <testcase name="GetEmployees" classname="com.reliaquest.api.ApiApplicationTest" time="0.004"/>
+  <testcase name="HighestSalaryEmployee" classname="com.reliaquest.api.ApiApplicationTest" time="0.015"/>
+  <testcase name="getTopTenEarningEmployeeNames" classname="com.reliaquest.api.ApiApplicationTest" time="0.006"/>
+  <testcase name="SearchEmployees" classname="com.reliaquest.api.ApiApplicationTest" time="0.004"/>
+  <testcase name="CreateEmployee" classname="com.reliaquest.api.ApiApplicationTest" time="0.003"/>
+  <system-out><![CDATA[2025-01-11 02:13:12 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-11 02:13:12 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.10)
+
+2025-01-11 02:13:12 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/org.json/json/20241224/6524a412223e4b355cb2a5787fec0b15dd9cf6f1/json-20241224.jar!/org/json/JSONObject.class
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-01-11 02:13:12 INFO  c.reliaquest.api.ApiApplicationTest - Starting ApiApplicationTest using Java 17.0.13 with PID 30932 (started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-11 02:13:12 INFO  c.reliaquest.api.ApiApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-11 02:13:13 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-11 02:13:13 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-11 02:13:13 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-11 02:13:13 INFO  c.reliaquest.api.ApiApplicationTest - Started ApiApplicationTest in 1.06 seconds (process running for 2.113)
+2025-01-11 02:13:14 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getting highest salary of Employee 
+2025-01-11 02:13:14 INFO  c.r.a.s.impl.EmployeeServiceImpl - Getting list of Employees :[EmployeeObj(id=5667574f-7b63-4db6-9a05-7e011e9a6f7e, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=03e80a0a-c402-4cb8-9d9a-f1e1becfcebc, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=60d6b1b2-f846-46bb-a0b4-29c984237b80, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=006eac3a-652e-42f4-945e-aedd0bd273b5, employeeName=S Deshmukh, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)] 
+2025-01-11 02:13:14 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getTopTenEarningEmployeeNames 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

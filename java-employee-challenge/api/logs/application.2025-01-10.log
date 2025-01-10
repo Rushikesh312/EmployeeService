@@ -1,0 +1,149 @@
+2025-01-10 22:36:13 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-10 22:36:13 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+2025-01-10 22:36:14 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/org.json/json/20241224/6524a412223e4b355cb2a5787fec0b15dd9cf6f1/json-20241224.jar!/org/json/JSONObject.class
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-01-10 22:36:14 INFO  c.reliaquest.api.ApiApplicationTest - Starting ApiApplicationTest using Java 17.0.13 with PID 23706 (started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-10 22:36:14 INFO  c.reliaquest.api.ApiApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-10 22:36:14 INFO  com.reliaquest.api.config.WebConfig - WebMvc Config WebMvcConfig{corePoolSize=5, maxPoolSize=10, queueCapacity=500, keepAliveSeconds=60}
+2025-01-10 22:36:14 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-10 22:36:14 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-10 22:36:14 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-10 22:36:15 INFO  c.reliaquest.api.ApiApplicationTest - Started ApiApplicationTest in 1.157 seconds (process running for 2.17)
+2025-01-10 22:36:15 INFO  c.reliaquest.api.ApiApplicationTest - result received as :[EmployeeObj(id=3e6bb07f-fc7d-4d13-b154-0bb8e1832e7e, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=b315ecd9-808b-4705-802a-947d87488efd, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=eb2aa42b-1e41-43dd-9369-a0e43efe8a52, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=31226c93-4ffa-49ca-9589-383eaf657d9e, employeeName=S Kulkarni, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)]
+2025-01-10 22:36:15 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getting highest salary of Employee 
+2025-01-10 22:36:16 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getTopTenEarningEmployeeNames 
+2025-01-10 22:41:14 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-10 22:41:14 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+2025-01-10 22:41:15 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/org.json/json/20241224/6524a412223e4b355cb2a5787fec0b15dd9cf6f1/json-20241224.jar!/org/json/JSONObject.class
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-01-10 22:41:15 INFO  c.reliaquest.api.ApiApplicationTest - Starting ApiApplicationTest using Java 17.0.13 with PID 23880 (started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-10 22:41:15 INFO  c.reliaquest.api.ApiApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-10 22:41:15 INFO  com.reliaquest.api.config.WebConfig - WebMvc Config WebMvcConfig{corePoolSize=5, maxPoolSize=10, queueCapacity=500, keepAliveSeconds=60}
+2025-01-10 22:41:16 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-10 22:41:16 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-10 22:41:16 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-10 22:41:16 INFO  c.reliaquest.api.ApiApplicationTest - Started ApiApplicationTest in 1.256 seconds (process running for 2.389)
+2025-01-10 22:41:17 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getting highest salary of Employee 
+2025-01-10 22:41:17 INFO  c.r.a.s.impl.EmployeeServiceImpl - Service Layer Getting list of Employees :[EmployeeObj(id=37918686-7233-4283-8c88-905a581b5164, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=44e5e0b6-c150-4762-97b7-05f46aeea5d4, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=04a139f0-55ad-486c-923f-b1855f6b381e, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=98382100-30f4-474e-a14d-11253b11bd29, employeeName=S Kulkarni, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)] 
+2025-01-10 22:41:17 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getTopTenEarningEmployeeNames 
+2025-01-10 22:43:59 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-10 22:43:59 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+2025-01-10 22:43:59 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/org.json/json/20241224/6524a412223e4b355cb2a5787fec0b15dd9cf6f1/json-20241224.jar!/org/json/JSONObject.class
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-01-10 22:43:59 INFO  c.reliaquest.api.ApiApplicationTest - Starting ApiApplicationTest using Java 17.0.13 with PID 23978 (started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-10 22:43:59 INFO  c.reliaquest.api.ApiApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-10 22:44:00 INFO  com.reliaquest.api.config.WebConfig - WebMvc Config WebMvcConfig{corePoolSize=5, maxPoolSize=10, queueCapacity=500, keepAliveSeconds=60}
+2025-01-10 22:44:00 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-10 22:44:00 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-10 22:44:00 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-10 22:44:00 INFO  c.reliaquest.api.ApiApplicationTest - Started ApiApplicationTest in 1.21 seconds (process running for 2.135)
+2025-01-10 22:44:01 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getting highest salary of Employee 
+2025-01-10 22:44:01 INFO  c.r.a.s.impl.EmployeeServiceImpl - Service Layer Getting list of Employees :[EmployeeObj(id=b2e8d9fa-0c92-4c86-b36d-50ca2d18e60f, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=94dfea3f-e182-4108-b455-a087391f4f61, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=159c12cd-83a1-4a9b-ab71-57504592e74f, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=26ce14f9-b3b3-4811-a3a5-ed6057f45d1e, employeeName=S Kulkarni, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)] 
+2025-01-10 22:44:01 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getTopTenEarningEmployeeNames 
+2025-01-10 22:46:38 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-10 22:46:38 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+2025-01-10 22:46:39 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/org.json/json/20241224/6524a412223e4b355cb2a5787fec0b15dd9cf6f1/json-20241224.jar!/org/json/JSONObject.class
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-01-10 22:46:39 INFO  c.reliaquest.api.ApiApplicationTest - Starting ApiApplicationTest using Java 17.0.13 with PID 24117 (started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-10 22:46:39 INFO  c.reliaquest.api.ApiApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-10 22:46:39 INFO  com.reliaquest.api.config.WebConfig - WebMvc Config WebMvcConfig{corePoolSize=5, maxPoolSize=10, queueCapacity=500, keepAliveSeconds=60}
+2025-01-10 22:46:40 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-10 22:46:40 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-10 22:46:40 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-10 22:46:40 INFO  c.reliaquest.api.ApiApplicationTest - Started ApiApplicationTest in 1.288 seconds (process running for 2.367)
+2025-01-10 22:46:41 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getting highest salary of Employee 
+2025-01-10 22:46:41 INFO  c.r.a.s.impl.EmployeeServiceImpl - Service Layer Getting list of Employees :[EmployeeObj(id=b4e3bee9-09c8-4a66-9d0b-5bc97d522273, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=87a3005b-09ec-4851-8f5e-027c7f099c8a, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=559a2a4b-f2eb-4140-afdd-90da3bfd4a66, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=58f92455-9b6b-443f-b70f-b74997dd9f05, employeeName=S Kulkarni, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)] 
+2025-01-10 22:46:41 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getTopTenEarningEmployeeNames 
+2025-01-10 22:47:28 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-10 22:47:28 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+2025-01-10 22:47:28 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/org.json/json/20241224/6524a412223e4b355cb2a5787fec0b15dd9cf6f1/json-20241224.jar!/org/json/JSONObject.class
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-01-10 22:47:28 INFO  c.reliaquest.api.ApiApplicationTest - Starting ApiApplicationTest using Java 17.0.13 with PID 24163 (started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-10 22:47:28 INFO  c.reliaquest.api.ApiApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-10 22:47:29 INFO  com.reliaquest.api.config.WebConfig - WebMvc Config WebMvcConfig{corePoolSize=5, maxPoolSize=10, queueCapacity=500, keepAliveSeconds=60}
+2025-01-10 22:47:29 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-10 22:47:29 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-10 22:47:29 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-10 22:47:29 INFO  c.reliaquest.api.ApiApplicationTest - Started ApiApplicationTest in 1.226 seconds (process running for 2.235)
+2025-01-10 22:47:30 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getting highest salary of Employee 
+2025-01-10 22:47:30 INFO  c.r.a.s.impl.EmployeeServiceImpl - Service Layer Getting list of Employees :[EmployeeObj(id=028e1c2e-7508-4e3d-9b7e-d7b41b622136, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=8708c1ae-9297-499d-973b-6ab160f30485, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=7fcdc39e-c959-41a8-96de-b40eb07f4c39, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=a83ae212-d409-47bd-9220-f09201f50c32, employeeName=S Kulkarni, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)] 
+2025-01-10 22:47:30 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getTopTenEarningEmployeeNames 
+2025-01-10 22:49:09 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-10 22:49:09 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+2025-01-10 22:49:09 WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/org.json/json/20241224/6524a412223e4b355cb2a5787fec0b15dd9cf6f1/json-20241224.jar!/org/json/JSONObject.class
+	jar:file:/Users/rk/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-01-10 22:49:09 INFO  c.reliaquest.api.ApiApplicationTest - Starting ApiApplicationTest using Java 17.0.13 with PID 24251 (started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-10 22:49:09 INFO  c.reliaquest.api.ApiApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-10 22:49:10 INFO  com.reliaquest.api.config.WebConfig - WebMvc Config WebMvcConfig{corePoolSize=5, maxPoolSize=10, queueCapacity=500, keepAliveSeconds=60}
+2025-01-10 22:49:10 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-10 22:49:10 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-10 22:49:10 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-10 22:49:10 INFO  c.reliaquest.api.ApiApplicationTest - Started ApiApplicationTest in 1.381 seconds (process running for 2.392)
+2025-01-10 22:49:11 INFO  c.reliaquest.api.ApiApplicationTest - result received as :[EmployeeObj(id=050b6277-fbfb-41d1-8291-484648486d05, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=dcd6a674-9625-4f64-8d41-907450448710, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=7cd6fc27-f59b-4dfd-a031-0d747c7c03e2, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=256eeae4-907f-4764-aaba-f187638ecadc, employeeName=S Kulkarni, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)]
+2025-01-10 22:49:11 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getting highest salary of Employee 
+2025-01-10 22:49:11 INFO  c.r.a.s.impl.EmployeeServiceImpl - Service Layer Getting list of Employees :[EmployeeObj(id=af249ac3-8716-4e29-b72a-dd0cc892cb9d, employeeName=Rushikesh Kulkarni, employeeSalary=45000, employeeAge=29, employeeTitle=Engineer, employeeEmail=rk@gmail.com), EmployeeObj(id=34abf81d-f3f0-466b-ba00-4342ac0c412d, employeeName=Suresh Kulkarni, employeeSalary=43000, employeeAge=34, employeeTitle=Manager, employeeEmail=sureshk@gmail.com), EmployeeObj(id=2db16ca0-3173-4945-a4c0-cdfa91a47e15, employeeName=A Kulkarni, employeeSalary=74000, employeeAge=40, employeeTitle=VP, employeeEmail=ak@gmail.com), EmployeeObj(id=402ddfca-ac2c-4c57-b29a-b8250f88daaa, employeeName=S Kulkarni, employeeSalary=58000, employeeAge=28, employeeTitle=Senior Engineer, employeeEmail=sk@gmail.com)] 
+2025-01-10 22:49:11 INFO  c.reliaquest.api.ApiApplicationTest - Execute test case of getTopTenEarningEmployeeNames 
+2025-01-10 23:38:01 INFO  com.reliaquest.api.ApiApplication - Starting ApiApplication using Java 17.0.13 with PID 25713 (/Users/rk/Documents/Personal/code/java-employee-challenge/api/build/classes/java/main started by rk in /Users/rk/Documents/Personal/code/java-employee-challenge/api)
+2025-01-10 23:38:01 INFO  com.reliaquest.api.ApiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-10 23:38:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8111 (http)
+2025-01-10 23:38:02 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8111"]
+2025-01-10 23:38:02 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 23:38:02 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-10 23:38:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-10 23:38:02 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 903 ms
+2025-01-10 23:38:02 INFO  com.reliaquest.api.config.WebConfig - WebMvc Config WebMvcConfig{corePoolSize=5, maxPoolSize=10, queueCapacity=500, keepAliveSeconds=60}
+2025-01-10 23:38:02 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8111"]
+2025-01-10 23:38:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8111 (http) with context path ''
+2025-01-10 23:38:02 INFO  com.reliaquest.api.ApiApplication - Started ApiApplication in 1.738 seconds (process running for 2.274)
+2025-01-10 23:38:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 23:38:03 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 23:38:03 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 23:38:03 INFO  c.r.api.config.LoggingInterceptor - Incoming Request: POST /
+2025-01-10 23:38:03 INFO  c.r.a.s.impl.EmployeeServiceImpl - EmployeeInput :{name=Rushieklsh, age=52, salary=451212, title=VP}
+2025-01-10 23:38:04 INFO  c.r.a.s.impl.EmployeeServiceImpl - Employee is created successfully
+2025-01-10 23:38:04 INFO  c.r.api.config.LoggingInterceptor - Outgoing Response: / completed in 345 ms
+2025-01-10 23:42:11 INFO  c.r.api.config.LoggingInterceptor - Incoming Request: DELETE /7a7d34f8-f47b-475e-8106-fe8367cb625b
+2025-01-10 23:42:11 INFO  c.r.a.s.impl.EmployeeServiceImpl - Employee deleted successfully
+2025-01-10 23:42:11 INFO  c.r.api.config.LoggingInterceptor - Outgoing Response: /7a7d34f8-f47b-475e-8106-fe8367cb625b completed in 32 ms
