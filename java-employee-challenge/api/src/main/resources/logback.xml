@@ -1,26 +1,63 @@
-<configuration>
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" debug="true"
+               scanPeriod="30 seconds">
+    <property resource="application.yml" />
+    <property name="LOG_DIR" value="logs" />
+    <property name="LOG_NAME" value="apiLog" />
 
-    <property name="LOG_DIR" value="logs"/>
-
-    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <appender name="CONSOLE"
+              class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS,UTC} UTC: ${PID:- } [%15.15t] --- %-5p %-40.40logger{39} : %replace(%replace(%replace(%.5000msg%n ){'[Pp]assword*([^,]*)', 'password=xxxx'}){'[Vv]alue*([^,]*)', 'value=xxxx'}){'[Dd]ata*([^,]*)', 'data=xxxx'}%n
+            </Pattern>
         </encoder>
     </appender>
-    <!-- File Appender -->
-    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOG_DIR}/application.log</file>
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${LOG_DIR}/application.%d{yyyy-MM-dd}.log</fileNamePattern>
-            <maxHistory>7</maxHistory> <!-- Keep logs for 7 days -->
+    <appender name="FILE_ROLL"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS,UTC} UTC: ${PID:- } [%15.15t] --- %-5p %-40.40logger{39} : %replace(%replace(%replace(%.5000msg%n ){'[Pp]assword*([^,]*)', 'password=xxxx'}){'[Vv]alue*([^,]*)', 'value=xxxx'}){'[Dd]ata*([^,]*)', 'data=xxxx'}%n
+            </Pattern>
+        </encoder>
+        <file>${LOG_DIR}/${LOG_NAME}.log</file>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/${LOG_NAME}-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <maxFileSize>20MB</maxFileSize>
+            <maxHistory>10</maxHistory>
+            <totalSizeCap>300MB</totalSizeCap>
         </rollingPolicy>
-        <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
-        </encoder>
     </appender>
 
-    <root level="info">
+    <appender name="FILE_ERROR"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <encoder>
+            <charset>UTF-8</charset>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS,UTC} UTC: ${PID:- } [%15.15t] --- %-5p %-40.40logger{39} : %replace(%replace(%replace(%.5000msg%n ){'[Pp]assword*([^,]*)', 'password=xxxx'}){'[Vv]alue*([^,]*)', 'value=xxxx'}){'[Dd]ata*([^,]*)', 'data=xxxx'}%n
+            </Pattern>
+        </encoder>
+        <file>${LOG_DIR}/${LOG_NAME}.error</file>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/${LOG_NAME}-%d{yyyy-MM-dd}.%i.error
+            </fileNamePattern>
+            <maxFileSize>20MB</maxFileSize>
+            <maxHistory>10</maxHistory>
+            <totalSizeCap>100MB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Define packages which h need to be debug as sample given below -->
+    <!-- <logger name="com.reliaquest.api" level="DEBUG" /> -->
+    <root level="INFO">
+         <appender-ref ref="FILE_ROLL" />
+        <appender-ref ref="FILE_ERROR" />
         <appender-ref ref="CONSOLE" />
-        <appender-ref ref="FILE" />
     </root>
+
 </configuration>

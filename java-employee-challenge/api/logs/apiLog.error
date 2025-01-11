@@ -1,0 +1,10 @@
+2025-01-11 18:34:35.625 UTC: 42984 [           main] --- ERROR com.reliaquest.api.ApiApplication        : This is an error log
+ 
+2025-01-11 18:36:31.380 UTC: 43060 [           main] --- ERROR com.reliaquest.api.ApiApplication        : This is an error log
+ 
+2025-01-11 18:36:38.012 UTC: 43101 [           main] --- ERROR com.reliaquest.api.ApiApplication        : This is an error log
+ 
+2025-01-11 18:38:42.023 UTC: 43186 [           main] --- ERROR com.reliaquest.api.ApiApplication        : This is an error log
+ 
+2025-01-11 18:44:19.046 UTC: 43669 [           main] --- ERROR com.reliaquest.api.ApiApplication        : This is an error log
+ 

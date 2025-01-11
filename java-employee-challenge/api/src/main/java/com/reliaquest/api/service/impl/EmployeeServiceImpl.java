@@ -33,6 +33,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
     public List<EmployeeObj> getAllEmployees() {
         //cache employees result to save server calls
         if(!EMPLOYEE_LIST_CACHE.isEmpty()){
+            log.info("Found employee list in cache, returning from cache ");
             return EMPLOYEE_LIST_CACHE;
         }else{
             String employeeListResponse = getEmployeeListFromServer();
@@ -134,7 +135,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
         ResponseEntity<String> responseEntity = restTemplate.exchange(serverUrl, HttpMethod.DELETE,requestEntity,String.class);
         if(responseEntity.getStatusCode().is2xxSuccessful()){
             Boolean removed = EMPLOYEE_LIST_CACHE.removeIf(employee -> employee.getId().equals(id));
-            log.info("Employee removed from cache :{}",removed);
+            log.info("Employee removed from cache :{}, id:{}",removed , id);
         }
         log.info("Employee deleted successfully");
         return responseEntity;
